@@ -283,66 +283,78 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-black-soft border border-gold/10 p-10 hover:border-gold/30 group reveal delay-100 text-center">
-              <div className="flex justify-center mb-8">
+          <div className="fluid-columns reveal">
+            <article className="fluid-column">
+              <div className="fluid-column-image">
                 <Image
-                  src="/images/globe-icon.png"
+                  src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=640&h=800&fit=crop"
                   alt="Decode"
-                  width={160}
-                  height={160}
-                  className="w-40 h-40 object-contain opacity-60 group-hover:opacity-80 transition-opacity"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 380px"
+                  className="object-cover"
                 />
               </div>
-              <h3 className="font-[family-name:var(--font-cinzel)] text-4xl mb-4 text-cream">
-                Decode
-              </h3>
-              <p className="text-text-light leading-relaxed text-sm text-left">
-                We map the unconscious frequency patterns running your nervous
-                system—the inherited beliefs, suppressed emotions, and energetic
-                blocks that keep you broadcasting limitation.
-              </p>
-            </div>
+              <div className="fluid-column-content">
+                <h3 className="fluid-column-title">Decode</h3>
+                <p className="fluid-column-description">
+                  We map the unconscious frequency patterns running your nervous
+                  system—the inherited beliefs, suppressed emotions, and energetic
+                  blocks that keep you broadcasting limitation.
+                </p>
+                <div className="fluid-column-bottom">
+                  <span className="fluid-column-dot"></span>
+                  <span className="fluid-column-link">Explore</span>
+                </div>
+              </div>
+            </article>
 
-            <div className="bg-black-soft border border-gold/10 p-10 hover:border-gold/30 group reveal delay-200 text-center">
-              <div className="flex justify-center mb-8">
+            <article className="fluid-column">
+              <div className="fluid-column-image">
                 <Image
-                  src="/images/cup-icon.png"
+                  src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=640&h=800&fit=crop"
                   alt="Dissolve"
-                  width={160}
-                  height={160}
-                  className="w-40 h-40 object-contain opacity-60 group-hover:opacity-80 transition-opacity"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 380px"
+                  className="object-cover"
                 />
               </div>
-              <h3 className="font-[family-name:var(--font-cinzel)] text-4xl mb-4 text-cream">
-                Dissolve
-              </h3>
-              <p className="text-text-light leading-relaxed text-sm text-left">
-                Through quantum energetic activation, we release the density
-                stored in your body. Not through force—through frequency. What
-                took years to accumulate can shift in moments.
-              </p>
-            </div>
+              <div className="fluid-column-content">
+                <h3 className="fluid-column-title">Dissolve</h3>
+                <p className="fluid-column-description">
+                  Through quantum energetic activation, we release the density
+                  stored in your body. Not through force—through frequency. What
+                  took years to accumulate can shift in moments.
+                </p>
+                <div className="fluid-column-bottom">
+                  <span className="fluid-column-dot"></span>
+                  <span className="fluid-column-link">Explore</span>
+                </div>
+              </div>
+            </article>
 
-            <div className="bg-black-soft border border-gold/10 p-10 hover:border-gold/30 group reveal delay-300 text-center">
-              <div className="flex justify-center mb-8">
+            <article className="fluid-column">
+              <div className="fluid-column-image">
                 <Image
-                  src="/images/prayer-hands-icon.png"
+                  src="https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=640&h=800&fit=crop"
                   alt="Embody"
-                  width={160}
-                  height={160}
-                  className="w-40 h-40 object-contain opacity-60 group-hover:opacity-80 transition-opacity"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 380px"
+                  className="object-cover"
                 />
               </div>
-              <h3 className="font-[family-name:var(--font-cinzel)] text-4xl mb-4 text-cream">
-                Embody
-              </h3>
-              <p className="text-text-light leading-relaxed text-sm text-left">
-                You don&apos;t just clear the old—you architect the new. We
-                calibrate your system to the frequency of the reality
-                you&apos;re creating, until it becomes your natural state.
-              </p>
-            </div>
+              <div className="fluid-column-content">
+                <h3 className="fluid-column-title">Embody</h3>
+                <p className="fluid-column-description">
+                  You don&apos;t just clear the old—you architect the new. We
+                  calibrate your system to the frequency of the reality
+                  you&apos;re creating, until it becomes your natural state.
+                </p>
+                <div className="fluid-column-bottom">
+                  <span className="fluid-column-dot"></span>
+                  <span className="fluid-column-link">Explore</span>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
