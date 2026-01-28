@@ -154,7 +154,7 @@ export default function Home() {
 
         <div className="absolute inset-0 hero-overlay"></div>
 
-        <div className="relative z-10 text-center px-8 max-w-5xl mx-auto">
+        <div className="relative z-10 text-center px-8 max-w-5xl mx-auto pt-32">
           <p className="font-[family-name:var(--font-raleway)] text-xs tracking-[0.4em] uppercase text-gold mb-8 animate-fade-up">
             For Those Who Know There&apos;s More
           </p>
@@ -189,17 +189,18 @@ export default function Home() {
           >
             Begin the Conversation
           </button>
-        </div>
 
-        <a
-          href="#philosophy"
-          className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 cursor-pointer hover:text-gold transition-colors"
-        >
-          <span className="text-xs tracking-[0.2em] uppercase text-text-light hover:text-gold transition-colors">
-            Scroll
-          </span>
-          <div className="w-px h-12 bg-gradient-to-b from-gold to-transparent"></div>
-        </a>
+          <a
+            href="#philosophy"
+            className="mt-16 flex flex-col items-center gap-3 cursor-pointer hover:text-gold transition-colors animate-fade-up"
+            style={{ animationDelay: "1s" }}
+          >
+            <span className="text-xs tracking-[0.2em] uppercase text-text-light hover:text-gold transition-colors">
+              Scroll
+            </span>
+            <div className="w-px h-12 bg-gradient-to-b from-gold to-transparent"></div>
+          </a>
+        </div>
       </section>
 
       {/* Philosophy Section */}
